@@ -6,7 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded521be-5678-4f18-8322-b096db3c49d3" name="Default Changelist" comment="" />
+    <list default="true" id="ded521be-5678-4f18-8322-b096db3c49d3" name="Default Changelist" comment="model master">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/AssEmployeeOutlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/AssInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstDistrict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstOutlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstProvince.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/MstVariant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pos/astra/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pos/astra/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pos/astra/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pos/astra/repository/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pos/astra/repository/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pos/astra/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/posApps/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/posApps/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +46,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
@@ -40,8 +95,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1TrVAoL5bfMduS3zHfqT1rgBe3l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -151,6 +209,7 @@
       <updated>1574218060124</updated>
       <workItem from="1574218062806" duration="12181000" />
       <workItem from="1574242098416" duration="247000" />
+      <workItem from="1574304398000" duration="9938000" />
     </task>
     <servers />
   </component>
@@ -162,10 +221,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="model master" />
+    <option name="LAST_COMMIT_MESSAGE" value="model master" />
   </component>
 </project>

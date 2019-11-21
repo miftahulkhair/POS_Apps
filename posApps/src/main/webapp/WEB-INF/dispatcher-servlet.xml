@@ -45,6 +45,25 @@
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
             </props>
         </property>
+        <property name="annotatedClasses">
+            <list>
+                <value>com.pos.astra.model.MstCategory</value>
+                <value>com.pos.astra.model.MstEmployee</value>
+                <value>com.pos.astra.model.MstProvince</value>
+                <value>com.pos.astra.model.MstRole</value>
+
+                <value>com.pos.astra.model.MstRegion</value>
+                <value>com.pos.astra.model.MstDistrict</value>
+                <value>com.pos.astra.model.MstOutlet</value>
+                <value>com.pos.astra.model.MstSupplier</value>
+                <value>com.pos.astra.model.MstItem</value>
+                <value>com.pos.astra.model.MstVariant</value>
+                <value>com.pos.astra.model.AssInventory</value>
+                <value>com.pos.astra.model.AssEmployeeOutlet</value>
+                <value>com.pos.astra.model.MstUser</value>
+                <value>com.pos.astra.model.MstCustomer</value>
+            </list>
+        </property>
     </bean>
     <!-- Step 3: Setup Hibernate transaction manager -->
     <bean id="myTransactionManager"
