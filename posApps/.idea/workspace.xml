@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="posApps:war exploded" />
+      <artifact name="posApps:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded521be-5678-4f18-8322-b096db3c49d3" name="Default Changelist" comment="" />
+    <list default="true" id="ded521be-5678-4f18-8322-b096db3c49d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +153,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574218060124</updated>
       <workItem from="1574218062806" duration="12181000" />
-      <workItem from="1574242098416" duration="247000" />
+      <workItem from="1574242098416" duration="1009000" />
+      <workItem from="1574304440895" duration="4134000" />
+      <workItem from="1574311549451" duration="114000" />
     </task>
     <servers />
   </component>
@@ -162,7 +167,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
