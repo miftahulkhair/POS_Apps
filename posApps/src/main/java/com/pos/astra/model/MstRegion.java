@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "post_mst_region")
+@Table(name = "pos_mst_region")
 public class MstRegion {
     @Id
     private int id;

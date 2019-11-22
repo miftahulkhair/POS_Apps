@@ -9,11 +9,11 @@ public class AssEmployeeOutlet {
     @Id
     private int id;
 
-    @OneToOne(targetEntity = MstEmployee.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = MstEmployee.class, fetch = FetchType.LAZY)
     @JoinColumn(name = "employee_id", referencedColumnName = "id", insertable = false, updatable = false)
     private MstEmployee employeeId;
 
-    @OneToOne(targetEntity = MstOutlet.class, fetch = FetchType.LAZY)
+    @ManyToOne(targetEntity = MstOutlet.class, fetch = FetchType.LAZY)
     @JoinColumn(name = "outlet_id", referencedColumnName = "id", insertable = false, updatable = false)
     private MstOutlet outletId;
 

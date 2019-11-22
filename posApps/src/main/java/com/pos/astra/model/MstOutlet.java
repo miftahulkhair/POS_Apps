@@ -23,20 +23,17 @@ public class MstOutlet {
     @Column(name = "email", length = 50)
     private String email;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "province_id", referencedColumnName = "id", insertable = false, updatable = false)
-    private List<MstProvince> provinceId = new ArrayList<MstProvince>();
-//    private MstProvince provinceId;
+    private MstProvince provinceId;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "region_id", referencedColumnName = "id", insertable = false, updatable = false)
-    private List<MstRegion> regionId = new ArrayList<MstRegion>();
-//    private MstRegion regionId;
+    private MstRegion regionId;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "district_id", referencedColumnName = "id", insertable = false, updatable = false)
-    private List<MstDistrict> districtId = new ArrayList<MstDistrict>();
-//    private MstDistrict districtId;
+    private MstDistrict districtId;
 
     @Column(name = "postal_code")
     private String postalCode;
@@ -96,27 +93,27 @@ public class MstOutlet {
         this.email = email;
     }
 
-    public List<MstProvince> getProvinceId() {
+    public MstProvince getProvinceId() {
         return provinceId;
     }
 
-    public void setProvinceId(List<MstProvince> provinceId) {
+    public void setProvinceId(MstProvince provinceId) {
         this.provinceId = provinceId;
     }
 
-    public List<MstRegion> getRegionId() {
+    public MstRegion getRegionId() {
         return regionId;
     }
 
-    public void setRegionId(List<MstRegion> regionId) {
+    public void setRegionId(MstRegion regionId) {
         this.regionId = regionId;
     }
 
-    public List<MstDistrict> getDistrictId() {
+    public MstDistrict getDistrictId() {
         return districtId;
     }
 
-    public void setDistrictId(List<MstDistrict> districtId) {
+    public void setDistrictId(MstDistrict districtId) {
         this.districtId = districtId;
     }
 
